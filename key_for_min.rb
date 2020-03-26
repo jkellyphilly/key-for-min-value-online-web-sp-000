@@ -11,7 +11,6 @@ def key_for_min_value(name_hash)
     first_iteration_run = false
     name_hash.each do |key, value|
       if !first_iteration_run
-        #binding.pry
         smallest_value = value
         smallest_key << key
         first_iteration_run = true
