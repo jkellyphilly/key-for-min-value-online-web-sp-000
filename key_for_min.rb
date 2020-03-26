@@ -8,9 +8,9 @@ def key_for_min_value(name_hash)
   else
     smallest_value = 0
     smallest_key = []
+    first_iteration_run = false
     name_hash.each do |key, value|
-      if smallest_value == 0
-        #binding.pry
+      if !first_iteration_run
         smallest_value = value
         smallest_key << key
       elsif value < smallest_value
