@@ -21,7 +21,7 @@ def key_for_min_value(name_hash)
       end
     end
     #puts smallest_value
-    smallest_key.last
+    puts smallest_key.last
   end
 end
 
