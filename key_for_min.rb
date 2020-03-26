@@ -19,3 +19,5 @@ def key_for_min_value(name_hash)
     smallest_key.last
   end
 end
+
+testing = {:blake => 10, :ashley => 50, :adam => 17}
