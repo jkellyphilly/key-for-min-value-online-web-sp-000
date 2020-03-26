@@ -23,6 +23,6 @@ def key_for_min_value(name_hash)
   end
 end
 
-testing = {:blake => 10, :ashley => 50, :adam => 17}
+testing = {:blake => 0, :ashley => 50, :adam => 17}
 
 key_for_min_value(testing)
